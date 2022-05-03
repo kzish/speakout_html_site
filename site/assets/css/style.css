@@ -1,0 +1,75 @@
+.hero {
+    background-color: black;
+    color: white;
+    height: 500px;
+    overflow-x: hidden;
+}
+
+.hero h1 {
+    font-size: 62px;
+    font-weight: 100;
+}
+
+.hero-bg-img {
+    height: 500px;
+    width: auto;
+}
+
+.hero-left-text {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 500px;
+  text-align: right;
+}
+
+.who-are-we {
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.left-tear-drop {
+    background-color: black;
+    border-radius: 0px 50px 0px 50px;
+    box-shadow: 0px 0px 5px;
+    height: 350px;
+}
+
+.left-tear-drop-clear {
+    background-color: transparent;
+    border-radius: 0px 50px 0px 50px;
+    box-shadow: 0px 0px 125px;
+    height: 350px;
+}
+
+.right-tear-drop {
+    background-color: black;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 0px 0px 5px;
+    height: 350px;
+}
+
+.right-tear-drop-clear {
+    background-color: transparent;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 0px 0px 125px;
+    height: 350px;
+}
+
+.left-tear-drop-img-1 {
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 350px;
+    object-fit: contain;
+}
+
+
